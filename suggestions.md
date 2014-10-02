@@ -2,10 +2,12 @@
 
 A few suggestions for the alpha-phase of the CGSL archive:
 
-* establish a set of conventions for curating gesture-sign-focused research
+* establish a set of conventions for curating gesture/sign-focused research
   collections
 * curate a collection to serve as paradigm, illustrating those conventions
-* design a custom interface for the datbrary-backed collections you aim to curate
+* design a custom interface for the databrary-backed collections you aim to curate
+* contact databrary team to discuss collaboration on data deposit/sharing
+  APIs, along the lines of the [dataverse APIs](http://thedata.harvard.edu/guides/dataverse-api-main.html)
 
 
 #### How do we specify conventions for organizing data collections?
@@ -38,7 +40,10 @@ So, a "data model" for a study is just a way of specifying the types of "things"
 
 ## Misc
 
-* leverage databrary for authentication/permissions
+* take advantage of all the thought and planning that went into the [databrary
+  design docs](https://github.com/databrary/design)
+
+* consider using databrary for authentication/permissions
   * [user-permissions](https://github.com/databrary/design/blob/master/wireframes/user-permissions-management-tree.png)
   * [study-permissions](https://github.com/databrary/design/blob/master/wireframes/study-permissions-management-tree.png)
 
