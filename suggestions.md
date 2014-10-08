@@ -5,6 +5,10 @@ A few suggestions for the alpha-phase of the CGSL archive:
 * establish a set of conventions for curating gesture/sign-focused research
   collections
 * curate a collection to serve as paradigm, illustrating those conventions
+
+
+
+
 * design a custom interface for the databrary-backed collections you aim to curate
 * contact databrary team to discuss collaboration on data deposit/sharing
   APIs, along the lines of the [dataverse APIs](http://thedata.harvard.edu/guides/dataverse-api-main.html)
