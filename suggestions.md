@@ -40,6 +40,11 @@ So, a "data model" for a study is just a way of specifying the types of "things"
 
 ## Misc
 
+* use [tabular data package](http://dataprotocols.org/tabular-data-package/)
+  format as convention for dataset publishing manifest
+
+* consult this concise [data sharing guide](https://github.com/jtleek/datasharing), with useful suggestions for coding variables and documenting your schema
+
 * take advantage of all the thought and planning that went into the [databrary
   design docs](https://github.com/databrary/design)
 
