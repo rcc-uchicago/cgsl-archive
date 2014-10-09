@@ -19,7 +19,7 @@ museums’ digital assets."
 
 From the [FAQ](http://www.neh.gov/files/grants/digital-humanities-start-faqs_2014.pdf):
 
-**Innovation might not consist of creating new technology; instead the project makes use of an existing technology in a new way.**
+**Innovation might not consist of creating new technology; instead the project might make use of an existing technology in a new way.**
 
 **Projects that simply use existing technologies to make materials more readily available are unlikely to receive Digital Humanities Start-Up Grants. If, however, your proposed work involves the early stages in the development of new Web technologies or new methods of indexing or incorporating metadata into an online collection, you would appear to have a stronger case for receiving a Digital Humanities Start-Up Grant.**
 
