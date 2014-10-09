@@ -57,7 +57,7 @@ Utilize one of the following protocols:
   Google's Dataset Publishing Language
 * [tabular data packages](http://dataprotocols.org/tabular-data-package/) - JSON-based spec
 
-We would recommend the latter because it is more lightweight and developer- friendly.
+We would recommend the latter (more lightweight and developer-friendly).
 
 
 #### How to package a behavioral dataset?
