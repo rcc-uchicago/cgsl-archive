@@ -1,16 +1,11 @@
 # Prototype
 
-**Create a searchable collection with video/annotation playback.**
+A proof-of-concept **discovery interface for annotated media** demonstrating how behavioral data collections could be interactively explored.
 
-By indexing the annotation associated with a video, you could enable searching
-of annotation codes or keywords in order to isolate instances within the overall collection that are of particular interest.  By enabling linked playback at the timestamp of a given instance, a researcher could quickly view targeted behaviors.
+The objective would be to develop an interface that enables sign/gesture researchers a way to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This would be achieved by indexing typed annotations and the use of crossfilter/reductio for interactive filtering/aggregating.)
 
-
-## Suggestions
-
-* focus on one clean, small, open collection
-* use a simple data model
-* use a simple authentication scheme (full access once authenticated)
+By indexing the annotation associated with a video, you could enable
+interactive exploration of annotation codes or keywords in order to isolate behavioral instances within the overall collection that are of particular interest.  By enabling linked playback at the timestamp of a given instance, a researcher could quickly view targeted behaviors.
 
 
 ## Resources

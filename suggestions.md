@@ -5,16 +5,25 @@ A few suggestions for the alpha-phase of the CGSL archive:
 * establish a set of conventions for curating gesture/sign-focused research
   collections
 * curate a collection to serve as paradigm, illustrating those conventions
-
-
-
-
-* design a custom interface for the databrary-backed collections you aim to curate
 * contact databrary team to discuss collaboration on data deposit/sharing
-  APIs, along the lines of the [dataverse APIs](http://thedata.harvard.edu/guides/dataverse-api-main.html)
+  APIs, along the lines of the [dataverse](http://thedata.harvard.edu/guides/dataverse-api-main.html) or [ckan](http://docs.ckan.org/en/latest/api/index.html) APIs
+* utilize databrary for dataset publishing/discoverability and controlled
+  access to dataset resources
+* develop a prototype demonstrating enhanced access to contributed collections
+  focused on enabling interactive explorability (described below) rather than
+  dataset discoverabilty
+* develop a simple and secure media access API
+  
+To elaborate on a few of these points ...
+
+The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This would be achieved by indexing typed annotations and the use of crossfilter/reductio for interactive filtering/aggregating.)
+
+Databrary should serve as the primary catalog for collection discovery and basic access. The CGSL repository could then provide **enhanced access** to these contributed collections in the form of the aforementioned interface for exploratory data analysis, which will **enable researchers to do fast multidimensional filtering of annotation types via coordinated views** (multiple visualizations that summarize observations along different annotation dimensions, where filtering in one annotation dimension updates the others.)
+
+In conjunction with the above, the CGSL repository could provide an http-based media interface, a simple and secure API for dynamically accessing the repository's annotated media: i.e., media access points specified via url path and query parameter encoded timestamps. 
 
 
-#### How do we specify conventions for organizing data collections?
+#### How to specify conventions for organizing data collections?
 
 * use the [databrary planning guide](http://databrary.org/user-guide/contributing.html) as a starting point
 * focus on one initial collection to serve as a paradigm
@@ -38,8 +47,36 @@ So, a "data model" for a study is just a way of specifying the types of "things"
 * visit
 * video
 * group
-* study
 * measure
+
+
+#### How to specify the structure (data model) of behavioral datasets?
+
+Utilize one of the following protocols:
+
+* [dspl](https://developers.google.com/public-data/docs/tutorial#overview) -
+  Google's Dataset Publishing Language
+* [tabular data packages](http://dataprotocols.org/tabular-data-package/) - JSON-based spec
+
+We would recommend the latter because it is more lightweight and developer- friendly.
+
+
+#### How to package a behavioral dataset?
+
+As [tidy data](https://github.com/jtleek/datasharing#the-tidy-data-set) encapsulated as a [dat](http://dat-data.com/) database with a
+[tabular data package](http://dataprotocols.org/tabular-data-package/) manifest.
+
+
+#### How to query behavioral datasets?
+
+Use [Lucene-style indexing](https://github.com/fergiemcdowall/search-index) and
+http search API via [forage.js](http://fergiemcdowall.github.io/norch/#search-api)
+
+
+#### How to interactively explore behavioral datasets?
+
+Via [crossfilter](http://square.github.io/crossfilter/), which enables fast
+multidimensional filtering for coordinated views (multiple visualizations that summarize data along different dimensions, where filtering in one dimension updates the others).  Note that [reductio](https://github.com/esjewett/reductio) is a nice complement to crossfilter, providing dependent aggregations.  
 
 
 ## Misc
@@ -57,5 +94,3 @@ So, a "data model" for a study is just a way of specifying the types of "things"
   * [study-permissions](https://github.com/databrary/design/blob/master/wireframes/study-permissions-management-tree.png)
 
 * transcode video to [H.264/AAC format](video-formats.md)
-
-* obtain a dedicated domain name (`archive.gslcenter.uchicago.edu`)
