@@ -74,7 +74,7 @@ See brief intro to data packaging [here](https://github.com/nickstenning/put-it-
 #### How to query behavioral datasets?
 
 Use [Lucene-style indexing](https://github.com/fergiemcdowall/search-index) and
-http search API via [forage.js](http://fergiemcdowall.github.io/norch/#search-api)
+http search API via [forage.js](http://fergiemcdowall.github.io/norch/#search-api).
 
 
 #### How to interactively explore behavioral datasets?

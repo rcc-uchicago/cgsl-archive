@@ -1,7 +1,5 @@
 # What makes behavioral research collections unique?
 
-In the variegated area of infrastructure for behavioral research, we need to think through the practices and conventions for organizing collections of research studies.
-
 In the behavioral sciences, significant emphasis is placed on observation.  A behavioral scientist aims to confirm their hypothesis with behavioral evidence.  Given this observational imperative, a research study typically requires capturing phenomenal streams (video recordings) of the behavior of the study's participants, which must be observed and annotated in accordance with a rigorous specification of observational criteria.
 
 * phenomenal streams (continuous / unstructured)
