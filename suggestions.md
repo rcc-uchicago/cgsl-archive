@@ -1,12 +1,13 @@
 # Suggestions
 
-A few suggestions for the alpha-phase of the CGSL archive:
+In light of the [context](context.md) and [funding](funding.md) situation, here
+are a few suggestions for the alpha-phase of the proposed CGSL project:
 
 * establish a set of conventions for curating gesture/sign-focused research
   collections
 * curate a collection to serve as paradigm, illustrating those conventions
-* contact databrary team to discuss collaboration on data deposit/sharing
-  APIs, along the lines of the [dataverse](http://thedata.harvard.edu/guides/dataverse-api-main.html) or [ckan](http://docs.ckan.org/en/latest/api/index.html) APIs
+* contact databrary team to determine availability of data deposit/sharing
+  APIs (whether something exists along the lines of the [dataverse](http://thedata.harvard.edu/guides/dataverse-api-main.html) or [ckan](http://docs.ckan.org/en/latest/api/index.html) APIs) and data packaging conventions
 * utilize databrary for dataset publishing/discoverability and controlled
   access to dataset resources
 * develop a prototype demonstrating enhanced access to contributed collections
@@ -16,7 +17,7 @@ A few suggestions for the alpha-phase of the CGSL archive:
   
 To elaborate on a few of these points ...
 
-The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This would be achieved by indexing typed annotations and the use of crossfilter/reductio for interactive filtering/aggregating.)
+The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This could be achieved by indexing typed annotations and the use of crossfilter/reductio for interactive filtering/aggregating.)
 
 Databrary should serve as the primary catalog for collection discovery and basic access. The CGSL repository could then provide **enhanced access** to these contributed collections in the form of the aforementioned interface for exploratory data analysis, which will **enable researchers to do fast multidimensional filtering of annotation types via coordinated views** (multiple visualizations that summarize observations along different annotation dimensions, where filtering in one annotation dimension updates the others.)
 
@@ -28,7 +29,7 @@ In conjunction with the above, the CGSL repository could provide an http-based m
 * use the [databrary planning guide](http://databrary.org/user-guide/contributing.html) as a starting point
 * focus on one initial collection to serve as a paradigm
 * define and document a data model for this target collection
-* define and document a data model for future collections
+* define and document a data model template for future collections
 * again, the [data model suggestions](http://databrary.org/user-guide/contributing/definitions.html) provided by databrary might be a good starting point
 
 
@@ -81,8 +82,8 @@ multidimensional filtering for coordinated views (multiple visualizations that s
 
 ## Misc
 
-* use [tabular data package](http://dataprotocols.org/tabular-data-package/)
-  format as convention for dataset publishing manifest
+* use the [tabular data package](http://dataprotocols.org/tabular-data-package/)
+  format as a convention for packaging collections (resources and metadata)
 
 * consult this concise [data sharing guide](https://github.com/jtleek/datasharing), with useful suggestions for coding variables and documenting your schema
 
