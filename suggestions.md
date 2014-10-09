@@ -10,14 +10,12 @@ are a few suggestions for the alpha-phase of the proposed CGSL project:
   APIs (whether something exists along the lines of the [dataverse](http://thedata.harvard.edu/guides/dataverse-api-main.html) or [ckan](http://docs.ckan.org/en/latest/api/index.html) APIs) and data packaging conventions
 * utilize databrary for dataset publishing/discoverability and controlled
   access to dataset resources
-* develop a prototype demonstrating enhanced access to contributed collections
-  focused on enabling interactive explorability (described below) rather than
-  dataset discoverabilty
+* develop a [prototype](prototype.md) demonstrating enhanced access to contributed collections that's focused on enabling [interactive explorability](https://github.com/joyrexus/rcc/blob/master/services/demos.md) (described below) rather than dataset discoverabilty
 * develop a simple and secure media access API
   
 To elaborate on a few of these points ...
 
-The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This could be achieved by indexing typed annotations and the use of crossfilter/reductio for interactive filtering/aggregating.)
+The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This could be achieved by indexing typed annotations and the use of [crossfilter](http://square.github.io/crossfilter/)/reductio for interactive filtering/aggregating.)
 
 Databrary should serve as the primary catalog for collection discovery and basic access. The CGSL repository could then provide **enhanced access** to these contributed collections in the form of the aforementioned interface for exploratory data analysis, which will **enable researchers to do fast multidimensional filtering of annotation types via coordinated views** (multiple visualizations that summarize observations along different annotation dimensions, where filtering in one annotation dimension updates the others.)
 
@@ -67,6 +65,11 @@ We would recommend the latter because it is more lightweight and developer- frie
 As [tidy data](https://github.com/jtleek/datasharing#the-tidy-data-set) encapsulated as a [dat](http://dat-data.com/) database with a
 [tabular data package](http://dataprotocols.org/tabular-data-package/) manifest.
 
+Standardised packaging formats have the ability to drastically simplify the
+process of discovering, retrieving, and managing data.
+
+See brief intro to data packaging [here](https://github.com/nickstenning/put-it-in-a-box/blob/master/talk.md#introducing-the-data-package).
+
 
 #### How to query behavioral datasets?
 
@@ -87,11 +90,9 @@ multidimensional filtering for coordinated views (multiple visualizations that s
 
 * consult this concise [data sharing guide](https://github.com/jtleek/datasharing), with useful suggestions for coding variables and documenting your schema
 
-* take advantage of all the thought and planning that went into the [databrary
-  design docs](https://github.com/databrary/design)
+* consider and take advantage of all the thought and planning that went into the [databrary design docs](https://github.com/databrary/design)
 
-* consider using databrary for authentication/permissions
-  * [user-permissions](https://github.com/databrary/design/blob/master/wireframes/user-permissions-management-tree.png)
-  * [study-permissions](https://github.com/databrary/design/blob/master/wireframes/study-permissions-management-tree.png)
+* determine whether databrary supplies an authentication API for
+  determining permission level status on contributed dataset resources
 
 * transcode video to [H.264/AAC format](video-formats.md)
