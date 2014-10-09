@@ -4,6 +4,8 @@ A proof-of-concept **discovery interface for annotated media** demonstrating how
 
 The objective would be to develop an interface that enables sign/gesture researchers a way to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This would be achieved by indexing typed annotations and the use of crossfilter/reductio for interactive filtering/aggregating.)
 
+> [crossfilter](http://square.github.io/crossfilter/) enables fast multidimensional filtering for coordinated views (multiple visualizations that summarize data along different dimensions, where filtering in one dimension updates the others).  [reductio](https://github.com/esjewett/reductio) is a nice complement to crossfilter, providing dependent aggregations.  
+
 By indexing the annotation associated with a video, you could enable
 interactive exploration of annotation codes or keywords in order to isolate behavioral instances within the overall collection that are of particular interest.  By enabling linked playback at the timestamp of a given instance, a researcher could quickly find and view targeted behaviors.
 

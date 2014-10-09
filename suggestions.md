@@ -6,8 +6,7 @@ are a few suggestions for the alpha-phase of the proposed CGSL project:
 * establish a set of conventions for curating gesture/sign-focused research
   collections
 * curate a collection to serve as paradigm, illustrating those conventions
-* contact databrary team to determine availability of data deposit/sharing
-  APIs (whether something exists along the lines of the [dataverse](http://thedata.harvard.edu/guides/dataverse-api-main.html) or [ckan](http://docs.ckan.org/en/latest/api/index.html) APIs) and data packaging conventions
+* contact databrary team to determine availability of data deposit/sharing APIs (whether something exists along the lines of the [dataverse](http://thedata.harvard.edu/guides/dataverse-api-main.html) or [ckan](http://docs.ckan.org/en/latest/api/index.html) APIs) and data packaging conventions; in particular, inquire whether databrary supplies an authentication API for determining permission level status on contributed dataset resources
 * utilize databrary for dataset publishing/discoverability and controlled
   access to dataset resources
 * develop a [prototype](prototype.md) demonstrating enhanced access to contributed collections that's focused on enabling [interactive explorability](demos.md) (described below) rather than dataset discoverabilty
@@ -15,7 +14,7 @@ are a few suggestions for the alpha-phase of the proposed CGSL project:
   
 To elaborate on a few of these points ...
 
-The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (This could be achieved by indexing typed annotations and the use of [crossfilter](http://square.github.io/crossfilter/)/reductio for interactive filtering/aggregating.)
+The CGSL should focus on developing a proof-of-concept **discovery interface for annotated media**, in particular an interface that enables researchers to interactively explore particular behavioral patterns within a collection of annotated media streams, with immediate playback. (See [prototype](prototype.md) notes for additional details.)
 
 This suggestion is motivated by the [unique nature of behavioral datasets](context.md) and the particular desiderata of the project's [grant funding](funding.md).
 
@@ -51,7 +50,7 @@ So, a "data model" for a study is just a way of specifying the types of "things"
 * measure
 
 
-#### How to specify the structure (data model) of behavioral datasets?
+#### Packaging
 
 Utilize one of the following protocols:
 
@@ -61,40 +60,16 @@ Utilize one of the following protocols:
 
 We would recommend the latter (more lightweight and developer-friendly).
 
-
-#### How to package a behavioral dataset?
-
-As [tidy data](https://github.com/jtleek/datasharing#the-tidy-data-set) encapsulated as a [dat](http://dat-data.com/) database with a
-[tabular data package](http://dataprotocols.org/tabular-data-package/) manifest.
-
 Standardised packaging formats have the ability to drastically simplify the
 process of discovering, retrieving, and managing data.
 
 See brief intro to data packaging [here](https://github.com/nickstenning/put-it-in-a-box/blob/master/talk.md#introducing-the-data-package).
 
 
-#### How to query behavioral dataset metadata?
-
-Use [Lucene-style indexing](https://github.com/fergiemcdowall/search-index) and
-http search API via [forage.js](http://fergiemcdowall.github.io/norch/#search-api).
-
-
-#### How to interactively explore behavioral datasets?
-
-Via [crossfilter](http://square.github.io/crossfilter/), which enables fast
-multidimensional filtering for coordinated views (multiple visualizations that summarize data along different dimensions, where filtering in one dimension updates the others).  Note that [reductio](https://github.com/esjewett/reductio) is a nice complement to crossfilter, providing dependent aggregations.  
-
-
-## Misc
-
-* use the [tabular data package](http://dataprotocols.org/tabular-data-package/)
-  format as a convention for packaging collections (resources and metadata)
+#### Misc
 
 * consult this concise [data sharing guide](https://github.com/jtleek/datasharing), with useful suggestions for coding variables and documenting your schema
 
 * consider and take advantage of all the thought and planning that went into the [databrary design docs](https://github.com/databrary/design)
-
-* determine whether databrary supplies an authentication API for
-  determining permission level status on contributed dataset resources
 
 * transcode video to [H.264/AAC format](video-formats.md)
