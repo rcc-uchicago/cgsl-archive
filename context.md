@@ -8,7 +8,7 @@ In the behavioral sciences, significant emphasis is placed on observation.  A be
 In other words, the data collected in the course of a study consists in part of **annotated streams** of participant behavior.  For cohort studies, these annotated streams are often called **sessions**.  This is typically supplemented with various attributes and measures collected for each **participant**.  These attributes and measures permit various participant and session **groupings**.
 
 Note that the captured video of partipant behavior is an information channel that
-requires filtering, segmentation, and decoding on the part of the researcher, whose observations are re-encoded in the form of annotations.  The annotations supervene over the observations.
+requires filtering, segmentation, and decoding on the part of the researcher, whose observations are re-encoded in the form of annotations.  The annotations supervene over the raw-data stream.
 
 Let's also note the following ...
 
