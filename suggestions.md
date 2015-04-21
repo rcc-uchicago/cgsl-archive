@@ -25,11 +25,11 @@ In conjunction with the above, the CGSL repository could provide an http-based m
 
 #### How to specify conventions for organizing data collections?
 
-* use the [databrary planning guide](http://databrary.org/user-guide/contributing.html) as a starting point
+* use the [databrary planning guide](https://databrary.org/access/guide/investigators/contributing.html) as a starting point
 * focus on one initial collection to serve as a paradigm
 * define and document a data model for this target collection
 * define and document a data model template for future collections
-* again, the [data model suggestions](http://databrary.org/user-guide/contributing/definitions.html) provided by databrary might be a good starting point
+* again, the [data model suggestions](https://databrary.org/access/guide/investigators/contributing/definitions.html) provided by databrary might be a good starting point
 
 
 #### What is a "data model"?
