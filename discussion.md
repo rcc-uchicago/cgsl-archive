@@ -5,18 +5,27 @@ Notes in preparation for tomorrow's (2015-04-20) discussion, exploring the optio
 
 ## Questions
 
-* what is the main objective of the envisioned archive?
-* who is the intended audience?
-* can you provide some example use cases?
-* what is the current state of the collections you wish to archive?
-* would this be a one-time curation and publish effort or ongoing?
-* do you have any postdocs with the relevant domain expertise to serve as leads
+* What is the main objective of the envisioned archive?
+
+* Who is the intended audience?  How large is this audience?
+
+* Can you provide some examples of how this archive would be used by other
+  researchers?
+
+* Can you point to an existing model of how your archive should work and look
+  like?
+
+* What is the current state of the collections you wish to archive?
+
+* Would this be a one-time curation and publish effort or ongoing?
+
+* Do you have any postdocs with the relevant domain expertise to serve as leads
   in this enterprise (as archive administrator)?
 
 
-## Overview
+## Key Considerations
 
-A data archive for a given scientific research community provides a curated
+Let's keep in mind the purpose and function of a scientific data archive.  A data archive for a given scientific research community provides a curated
 collection of **repurposable** data collections.  Each collection should provide
 a basic organization of its contents that is appropriately annotated and
 documented for future users.  The aim of the annotation and docs is to clarify how the collection was used for a particular research objective and could be repurposed to address other research questions.
