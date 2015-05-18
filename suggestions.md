@@ -20,7 +20,7 @@ This suggestion is motivated by the [unique nature of behavioral datasets](conte
 
 Databrary should serve as the primary catalog for collection discovery and basic access. The CGSL could then provide **enhanced access** to these contributed collections in the form of the aforementioned interface for exploratory data analysis, which will **enable researchers to do fast multidimensional filtering of annotation types via coordinated views** (multiple visualizations that summarize observations along different annotation dimensions, where filtering in one annotation dimension updates the others.)
 
-In conjunction with the above, the CGSL repository could provide an http-based media interface, a simple and secure API for dynamically accessing the repository's annotated media: i.e., media access points specified via url path and query parameter encoded timestamps. 
+In conjunction with the above, the CGSL repository could provide an http-based media interface, a simple and secure API for dynamically accessing the repository's annotated media: i.e., media access points specified via url path and query-parameter-encoded timestamps. 
 
 
 #### How to specify conventions for organizing data collections?
