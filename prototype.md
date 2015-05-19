@@ -47,12 +47,10 @@ accompanying annotations to WebVTT format and subsequent indexing.
 
 A virtual-machine on the Midway cluster will be allocated for hosting a dedicated MySQL database, needed for persisting and querying the metadata
 accompanying each video recording.  This VM will also host a dedicated web
-server and the querying engine for our annotation indices.
+server and the [query engine](http://www.blevesearch.com/) for our annotation indices.
 
 
 ## Resources
-
-* [various examples](demos.md) of data-discovery web apps
 
 * video annotation and playback (with WebVTT and track elements)
   * [track demo](http://simpl.info/track/)
@@ -63,5 +61,10 @@ server and the querying engine for our annotation indices.
 
 * [bleve](http://www.blevesearch.com/) is a text indexing library
   supporting custom analyzers and flexible querying
+  * [bleve-explorer](https://github.com/blevesearch/bleve-explorer) is an example
+    app providing an HTTP/REST/JSON front-end to bleve
 
 * [crossfilter](http://square.github.io/crossfilter/) enables fast multidimensional filtering with coordinated views (multiple visualizations that summarize data along different dimensions, where filtering in one dimension updates the others)
+
+* [various examples](demos.md) of data-discovery web apps
+
